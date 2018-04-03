@@ -30,9 +30,9 @@ Function Get-LimeParticipant {
         [string]$BaseUri,
         [switch]$Raw
     )
-    Write-Host "$Session $SurveyId $BaseUri" # debug line
+
     $RpcMethodBody = New-RpcMethod 'list_participants' @($Session, $SurveyId)
-    Write-Host $RpcMethodBody
+
     if ($Raw) {
         $Result = (Invoke-RestMethod -Uri $BaseUri -Method Post -Body $RpcMethodBody).Content
     }
