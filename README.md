@@ -5,6 +5,8 @@ Issues and pull requests welcome!
 
 Big thanks to [Warren Frame](https://github.com/RamblingCookieMonster) for his many PowerShell posts and GitHub contributions that I used as templates and springboards.
 
+Also thanks to [Mooser Lee](https://github.com/mosserlee/PSClient-for-XML-RPC) for his XMLRPC PowerShell module from which I borrowed heavily and modified for LimeSurvey's output. 
+
 ## Instructions
 
 ```powershell
