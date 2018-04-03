@@ -12,7 +12,7 @@
     RootModule        = 'LimeSurvey-XML.psm1'
 
     # Version number of this module.
-    ModuleVersion     = '0.0.1'
+    ModuleVersion     = '0.0.2'
 
     # ID used to uniquely identify this module
     GUID              = '9d929a0d-b295-47f3-a0f8-fba9ed1cf195'
